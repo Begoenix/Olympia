@@ -1,2 +1,2 @@
 # Olympia
-They know anything.
+This project is named after the Greek mythology, in which the god living in Olympia control the daily life of ordinary people. In my nwn viewpoint, anything happening, happened, or gonna happen in the world can be record, or forecast, the only difference between record and forecast is that the former one is something surely, while the later one lives in probabiliy. What we are willing to do is trying to cover all kind of thing in different area, know them, find the relation between them, and finally trying to use themselves and the relation between them to predict what will happen in the future, just like the god controling the world.
