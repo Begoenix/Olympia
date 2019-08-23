@@ -3,7 +3,7 @@ import pandas as pd
 from collections import defaultdict
 import time
 import os,sys
-from NewTextRank import WordsDealer, UndirectWeightedGraph, NewTextRank
+from NLPDealer_1_1.NewTextRank import WordsDealer, UndirectWeightedGraph, NewTextRank
 reference = {("中国","v"):[(("敌视","v"),1),(("属于","v"),1),(("超过","v"),1),(("建设","v"),1)],("西方","v"):[(("敌视","v"),1),(("远离","v"),1),(("超过","v"),1)],("成都","v"):[(("属于","v"),1),(("建设","v"),1),(("远离","v"),1),(("敌视","v"),1)],("属于","v"):[(("西方",'v'),1),(("中国","v"),1),(("成都","v"),1)],("敌视","v"):[(("中国","v"),1),(("西方","v"),1),(("成都","v"),1)],("建设","v"):[(("中国","v"),1),(("西方","v"),1),(("成都","v"),1)],("远离","v"):[(("中国","v"),1),(("西方","v"),1),(("成都","v"),1)],("超过","v"):[(("成都","v"),1),(("西方","v"),1),(("中国","v"),1)]}
 
 sentence = '成都属于中国，中国超过西方，西方敌视中国，中国建设成都，西方远离成都，成都敌视西方，中国建设成都,中国建设成都,中国建设西方'
